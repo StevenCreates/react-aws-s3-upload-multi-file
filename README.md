@@ -4,7 +4,11 @@
 - Follow Me
 - Clone Repo
 - Npm install
+
 - Update .env with your aws S3 bucket info
+<script src="https://gist.github.com/StevenCreates/c26dd1af58609db234ea0342593861d3.js"></script>
+
+
 - Update S3 bucket Cors
 - Success
 
