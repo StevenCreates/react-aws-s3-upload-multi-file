@@ -12,6 +12,7 @@
 ### Resources
 
 - Article/Guide
+- https://medium.com/@steven_creates/uploading-multiple-files-to-aws-s3-using-react-js-hooks-react-aws-s3-1dd29221c91c
 
 - AWS Example Bucket Policy
 - https://docs.aws.amazon.com/AmazonS3/latest/dev/example-bucket-policies.html
