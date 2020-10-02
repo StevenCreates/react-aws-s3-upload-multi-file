@@ -6,8 +6,20 @@
 - Npm install
 
 - Update .env with your aws S3 bucket info
-<script src="https://gist.github.com/StevenCreates/c26dd1af58609db234ea0342593861d3.js"></script>
-
+You'll need to get the following things from your AWS S3 Account.
+- Access ID.
+- Access Key.
+- Bucket Name.
+- Region
+- Directory Name (optional)
+    
+** .env file values
+- REACT_APP_ACCESS_ID=XXXXXXXXXXXXX
+- REACT_APP_ACCESS_KEY=XXXXXXXXXXXXX
+- REACT_APP_BUCKET_NAME=XXXXXXXXXXXXX
+- REACT_APP_DIR_NAME=XXXXXXXXXXXXX
+- REACT_APP_REGION=XXXXXXXXXXXXX
+**
 
 - Update S3 bucket Cors
 - Success
