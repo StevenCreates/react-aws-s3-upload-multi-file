@@ -1,8 +1,8 @@
-import React, { useRef } from "react";
+import React from "react";
 import S3 from "react-aws-s3";
 
 function Upload() {
-  const fileInput = useRef();
+  const fileInput = React.useRef();
 
   const config = {
     bucketName: process.env.REACT_APP_BUCKET_NAME,
@@ -24,7 +24,6 @@ function Upload() {
     let newFileName = file.name.replace(/\..+$/, "");
     const ReactS3Client = new S3(config);
     ReactS3Client.uploadFile(file, newFileName).then((data) => {
-      console.log(data);
       if (data.status === 204) {
         console.log("success");
       } else {
