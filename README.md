@@ -24,6 +24,8 @@ You'll need to get the following things from your AWS S3 Account.
 - Update S3 bucket Cors
 - Success
 
+#### You will need to update your bucket policy to allow your application to read write and connect. Below is a link AWS Bucket Policy. Or I provide an example in the article guide that you can use yourself.
+
 
 ### Resources
 
