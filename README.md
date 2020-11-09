@@ -46,3 +46,5 @@ You'll need to get the following things from your AWS S3 Account.
 
 
 **If you end up cloning this more than once please star it**
+
+#### Note I do not own the code to the npm package, this is the package owners code and all bugs and issues should be submitted through them.
